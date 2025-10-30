@@ -124,11 +124,11 @@ body {
 
 @media (1536px <= width){
   .info__header{
-    padding: clamp(4rem, 8vw, 7rem) clamp(7rem, 6vw, 10rem);
+    padding: clamp(5rem, 8vw, 7rem) clamp(9rem, 6vw, 12rem);
   }
 
   .info__content{
-    padding: clamp(2rem, 8vw, 3rem) clamp(7rem, 6vw, 10rem);
+    padding: clamp(2rem, 8vw, 3rem) clamp(9rem, 6vw, 12rem);
   }
 
   .info__text{
