@@ -166,7 +166,7 @@ body {
       "photo1  photo1" minmax(100px, 1fr)
       "photo2  color1" minmax(100px, 0.5fr)
       "photo3  photo5" minmax(150px, 0.5fr)
-      "photo4  color2" minmax(100px, 0.2fr)
+      "photo4  color2" minmax(100px, 0.15fr)
       "photo4  photo6" minmax(100px, 0.5fr)
       / 1fr 1fr;
     height: auto;
