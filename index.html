@@ -12,76 +12,83 @@
 <body>
 <main class="page">
 
-  <section>
-    <header>
-      <h1>COMPANY CULTURE</h1>
-      <nav>
-        <a href="#">
-          <img src="./assets/inst.svg" alt="Instagram">
+  <section class="info" aria-label="Company information">
+    <header class="info__header">
+      <h1 class="info__title">COMPANY CULTURE</h1>
+      <nav class="info__contacts" aria-label="Social media links">
+        <a class="info__link" href="#">
+          <img class="info__icon" src="./assets/inst.svg" alt="Instagram">
         </a>
-        <a href="#">
-          <img src="./assets/phone.svg" alt="Phone">
+        <a class="info__link" href="#">
+          <img class="info__icon" src="./assets/phone.svg" alt="Phone">
         </a>
-        <a href="#">
-          <img src="./assets/mail.svg" alt="Mail">
+        <a class="info__link" href="#">
+          <img class="info__icon" src="./assets/mail.svg" alt="Mail">
         </a>
       </nav>
     </header>
 
-    <div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <div class="info__content">
+      <p class="info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Massa ultricies aliquam egestas amet mi aliquam. Eu, vel massa elementum nulla.
       </p>
     </div>
   </section>
 
-  <section >
-    <figure >
-      <img src="./assets/woman1.webp"
+  <section class="gallery" aria-label="Company culture gallery">
+    <figure class="gallery__item gallery__item--woman1">
+      <img class="gallery__image"
+           src="./assets/woman1.webp"
            srcset="./assets/woman1@2x.webp 2x,
                      ./assets/woman1@3x.webp 3x"
            alt="Woman on the background of leaves">
     </figure>
 
-    <figure>
-      <img src="./assets/coffee.webp"
+    <figure class="gallery__item gallery__item--coffee">
+      <img class="gallery__image"
+           src="./assets/coffee.webp"
            srcset="./assets/coffee@2x.webp 2x,
                      ./assets/coffee@3x.webp 3x"
            alt="Coffee cup on table">
     </figure>
 
-    <div></div>
+    <div class="gallery__item gallery__item--brown" aria-hidden="true"></div>
 
-    <figure>
-      <img src="./assets/woman2.webp"
+    <figure class="gallery__item gallery__item--woman2">
+      <img class="gallery__image"
+           src="./assets/woman2.webp"
            srcset="./assets/woman2@2x.webp 2x,
                      ./assets/woman2@3x.webp 3x"
            alt="Photo of a happy woman">
     </figure>
 
-    <figure>
-      <img src="./assets/woman3.webp"
+    <figure class="gallery__item gallery__item--woman3">
+      <img class="gallery__image"
+           src="./assets/woman3.webp"
            srcset="./assets/woman3@2x.webp 2x,
                      ./assets/woman3@3x.webp 3x"
            alt="Profile photo of a woman with grass">
     </figure>
 
-    <figure>
-      <img src="./assets/door.webp"
+    <figure class="gallery__item gallery__item--door">
+      <img class="gallery__image"
+           src="./assets/door.webp"
            srcset="./assets/door@2x.webp 2x,
                      ./assets/door@3x.webp 3x"
            alt="Office door">
     </figure>
 
-    <div></div>
+    <div class="gallery__item gallery__item--red" aria-hidden="true"></div>
 
-    <figure>
-      <img src="./assets/man1.webp"
+    <figure class="gallery__item gallery__item--man1">
+      <img class="gallery__image"
+           src="./assets/man1.webp"
            srcset="./assets/man1@2x.webp 2x,
                      ./assets/man1@3x.webp 3x"
            alt="B&W photo of a man">
     </figure>
   </section>
+
 </main>
 </body>
 </html>
