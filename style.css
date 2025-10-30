@@ -163,11 +163,11 @@ body {
     grid-template:
       "title   title" auto
       "text    text" auto
-      "photo1  photo1" minmax(100px, 0.7fr)
-      "photo2  color1" minmax(100px, 0.3fr)
-      "photo3  photo5" minmax(150px, 0.3fr)
-      "photo4  photo4" minmax(200px, 0.7fr)
-      "color2  photo6" minmax(150px, 0.3fr)
+      "photo1  photo1" minmax(100px, 1fr)
+      "photo2  color1" minmax(100px, 0.5fr)
+      "photo3  photo5" minmax(150px, 0.5fr)
+      "photo4  color2" minmax(100px, 0.2fr)
+      "photo4  photo6" minmax(100px, 0.5fr)
       / 1fr 1fr;
     height: auto;
     min-height: 100vh;
